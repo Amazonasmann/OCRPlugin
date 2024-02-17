@@ -1,0 +1,21 @@
+# Ignore virtual environment related files
+__pycache__/
+*.pyc
+env/
+venv/
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+
+# Ignore test artifacts
+*.log
+test_results/*
+
+# Ignore coverage reports
+.coverage
+
+# Ignore additional files based on your project setup
+# For example, ignore compiled files if any
+*.so
+*.dll
