@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name="ocr_plugin",
+    name="plugin_name",
     version="0.1.0",
-    py_modules=["ocr"],
-    install_requires=["pluggy"],
+    packages=["plugin_name"],
+    install_requires=["pluggy"]
 )
